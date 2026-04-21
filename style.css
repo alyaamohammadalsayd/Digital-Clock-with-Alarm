@@ -7,6 +7,7 @@ body {
   align-items: center;
 }
 
+/* الحاوية */
 .container {
   padding: 40px;
   border-radius: 20px;
@@ -39,6 +40,7 @@ body {
   gap: 25px;
 }
 
+/* الساعة */
 .clock {
   display: flex;
   align-items: center;
@@ -81,7 +83,7 @@ span {
   }
 }
 
-
+/* الرقم */
 .digit {
   width: 50px;
   height: 90px;

@@ -1,3 +1,6 @@
+// =============================
+// 🔥 خريطة الأرقام (7-segment)
+// =============================
 const digitsMap = {
   0: ["a", "b", "c", "d", "e", "f"],
   1: ["b", "c"],
@@ -16,7 +19,7 @@ const digitsMap = {
 // =============================
 let alarmTime = null;
 let alarmTriggered = false;
-let alarmAudio = new Audio("/aduio/Alarm.mp3");
+let alarmAudio = new Audio("./aduio/Alarm.mp3");
 let snoozeBtn = null;
 
 // =============================
